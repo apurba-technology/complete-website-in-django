@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	{% load static %}
+<title>Tenughat Mahavidyalaya</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static "css/style1.css" %} ">
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="{% static "css/bootstrap.css" %}  " rel="stylesheet" type="text/css" media="all" />
+  
+<link rel="stylesheet" type="text/css" href=" {% static "css/style.css" %} " />
+<link rel="stylesheet" type="text/css" href="{% static "css/zoomslider.css" %} " />
+
+<link rel="stylesheet" href=" {% static "css/lightbox.css" %} ">
+<!-- carousel slider -->  
+<link href="{% static "css/owl.carousel.css" %} " rel="stylesheet" type="text/css" media="all"> 
+<!-- //carousel slider -->
+<link href="{% static "css/font-awesome.css" %} " rel="stylesheet"> 
+<script type="text/javascript" src="{% static "js/modernizr-2.6.2.min.js" %} "></script>
+<script src="{% static "js/jquery-2.2.3.min.js" %} "></script>
+<script src="{% static "js/bootstrap.js" %} "></script>
+<!--/web-fonts-->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+<!--//web-fonts-->
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+		
+	
+		
+		if ($(window).width() < 'width', 'auto') {
+			
+			var navbar_height =  $('.navbar').outerHeight();
+	
+			$(window).scroll(function(){  
+				if ($(this).scrollTop() > 10) {
+					 $('.navbar-wrap').css('height', navbar_height + 'px');
+					 $('#navbar_top').addClass("fixed-top");
+					 
+				}else{
+					$('#navbar_top').removeClass("fixed-top");
+					$('.navbar-wrap').css('height', 'auto');
+				}   
+			});
+		} 
+	
+		
+	}); 
+	</script>
+	
+	<style type="text/css">
+	
+	.fixed-top.navbar{ padding:0px;  }
+	
+	</style>
+	
+	
+	
+</head>
+<body>
+	<!--/banner-bottom-->
+			  <div class="w3_agilits_banner_bootm">
+			     <div class="w3_agilits_inner_bottom">
+			            <div class="wthree_agile_login">
+						     <ul>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +91 6296813420</li>
+								<li><i class="fa fa-envelope-o list-icon" aria-hidden="true"></i><a href="mailto:info@tenughat.com">info@tenughat.com</a></li>
+							</ul>
+						</div>
+						 
+				</div>
+			</div>
+			<!--//banner-bottom-->
+  <!--/banner-section--
+  
+	<div id="demo-1" 
+	data-zs-src='[
+		
+	
+	"{% static "images/b1.jpg" %} ","{% static "images/6.jpg" %}","{% static "images/b2.jpg" %}",
+	"{% static "images/b3.jpg" %}","{% static "images/b4.jpg" %}"
+	
+	]'
+	 data-zs-overlay="dots">
+  -->
+		<div class="demo-inner-content">
+		<!--/header-w3l-->
+			   <div class="header-w3-agileits" id="home">
+			     <div class="inner-header-agile">	
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a  href="index.html"> <img src="{% static "images/logo.jpg" %} " width="220px" height="90px" style="border-radius: 2%;"> </a></h1>
+					</div>
+					<!-- navbar-header -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li ><a href="/">Home</a></li>
+								<li class="active"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >About Us</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="#">HISTORY</a></li>
+										<li><a class="dropdown-item" href="#">VISSION</a></li>
+										<li><a class="dropdown-item" href="#">MISSION &amp; GOAL</a></li>
+										<li><a class="dropdown-item" href="#">CAMPUS</a></li>
+										<li><a class="dropdown-item" href="#">GOVERNING BODY</a></li>
+										<li><a class="dropdown-item" href="#">RULES &amp; REGULATIONS</a>
+										</li><li><a class="dropdown-item" href="#">NOTICE</a></li>
+										<li><a class="dropdown-item" href="#">GALLERY</a>
+										
+										</li>
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ADMISSION</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="#">ADMISSION NOTICE</a></li>
+										<li><a class="dropdown-item" href="#">ADMISSION PROCEDURE</a></li>
+										<li><a class="dropdown-item" href="#">ELIGIBILITY CRITERIA</a></li>
+										<li><a class="dropdown-item" href="#">FEES</a></li>
+										
+										
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Academics</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+					
+										<li><a class="dropdown-item" href="#">DEPARTMENTS</a></li>
+										<li><a class="dropdown-item" href="#" class="sf-with-ul">COURSE</a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a class="dropdown-item" href="#">ARTS</a></li>
+												<li><a class="dropdown-item" href="#">SCIENCE</a></li>
+												<li><a class="dropdown-item" href="#">COMMERCE</a></li>
+											</ul>
+										</li>
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FACILITIES</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="#">LIBRARY</a></li>
+										<li><a class="dropdown-item" href="#">COMPUTER LAB</a></li>
+										<li><a class="dropdown-item" href="#">NSS</a></li>
+										<li><a class="dropdown-item" href="#">SPORTS</a></li>
+										<li><a class="dropdown-item" href="#">ALUMNI</a></li>
+									</ul></li>
+									<li><a href="/h" >Gallery</a></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IQAC</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										
+										<li><a class="dropdown-item" href="#">ACADEMIC CALENDAR</a></li>
+										<li><a class="dropdown-item" href="#">QUALITY INITIATIVE</a></li>
+										<li><a class="dropdown-item" href="#">FUTURE PLANS</a></li>
+										<li><a class="dropdown-item" href="#">ACADEMIC AUDIT</a></li>
+										<li><a class="dropdown-item" href="#">MINUTES OF MEETING</a></li>
+										<li><a class="dropdown-item" href="#" target="_blank">FEADBACK</a></li>
+										<li><a class="dropdown-item" href="#">SEMINARS &amp; WORKSHOPS</a></li>
+										
+									</ul></li>
+									<li class=""><a href="contact">Contact Us</a></li>
+								
+							</ul>
+						</div>
+				
+				</nav>
+			</div> 
+
+			   </div>
+		<!--//header-w3l-->
+
+
+
+			
+			
+    <!--Banner  nnnnnnnnnngv                   -->
+    
+    <div class="slideshow-container">
+
+        <table>
+			
+		{% for banner in banner_images %}
+	
+        <tr><td>
+        <div class="mySlides">
+			  <img src="{{ banner.banner_image.url }}" class="ss">
+			  <!--/banner-info-->
+			  <div class="baner-info">
+				
+				<h3><span>w</span>elcome to our <span>c</span>ollege</h3>
+			   
+			   
+			</div>
+		 <!--/banner-ingo-->	
+        </div>
+        </td></tr>
+        {% endfor %}
+        </table>
+    
+    
+    </div>
+        
+      
+
+
+
+          
+            
+            <script>
+              var slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex-1].style.display = "block";  
+                setTimeout(showSlides, 4000);
+              }
+              </script>
+
+
+<!--                             fgsssssssssssssssssss----->
+
+
+              
+			
+			
+
+
+
+
+				
+	
+  <!--/banner-section-->
+
+
+
+
+
+
+
+
+
+  <section class="ls section_padding_top_100 section_padding_bottom_100 columns_margin_bottom_30 columns_padding_25 table_section table_section_md">
+	<div class="container">
+	
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="row">
+				<h1>History of Tenughat Mahavidyalaya</h1>
+				<hr class="star_divider">
+				<p align="justify" font="" size="20">Tenughat Mahavidyalaya Tenughat is a single Co-educational Degree College of Gomia Constituency (Bokaro) The Mahavidyalaya is situated by the side of 
+		Sub-Division Head Quarter  Bermo at Tenughat one side and the other side it is situated by the side of ‘Tenughat DAM’ which is the biggest earthen Dam of Asia.
+		Scene and scenario depicts the heavenly beauty environment and atmosphere. To be more specific the area is a tribal area where SC, ST and Other weaker sections
+		reside. For their bright future an educational institution  on was required to be established and in order to give a shape to this pious design. The founders
+		of this Institution were led to establish this Mahavidyalaya as far back as in the year of 1982. In spite of many obstructions, up and downs that the founders
+		were able to acquire a vast area of 17 acres of land by the help and fully Co-operation of ‘Bandh Pramandal Tenughat. It is a pleasure to mention here that the 
+		‘Bandh Pramandal (State Govt. of Jharkhand) Tenughat (Bokaro) Reserved 12 acres of Land for the establishment of the college where college are situated and running. 
+		Rest 5 acres of land are registered on the name of  college. There after the institution under the name and style ‘Tenughat Mahavidyalaya came in to existence. 
+		It is mandatory to mention here that in the year of 1985-86 Mahavidyalaya got temporary affiliation from ‘Ranchi University after Physical and Proper investigation. 
+		Just passing some years Mahavidyalaya got Permanent affiliation from Vinoba Bhave University, Hazaribag (Jharkhand) in the year of 2007-10. In the year-2013 the 
+		Mahavidyalaya has been registered under Section 2(f) and 12(B) of the UGC Act 1956 New Delhi. At present the Mahavidyalaya is smoothly running. Under Binod Bihari
+		Mahto Koylanchal University, Dhanbad. <br>
+		The main goal of this Mahavidyalaya is a result of intendment of upliftment  and betterment of the population throughout this area. </p>
+		
+		<h2>Vision</h2>
+		<hr class="star_divider">
+		<p><strong>Thought of our college behind the establishment:-</strong><br>
+To be more specific area is a tribal area where SC, ST and weaker  sections reside. 
+The vision or thought behind the establishment of this college is only to provide higher education to the down trodden students.</p>
+
+<h2>Mission</h2>
+		<hr class="star_divider">
+		<p align="justify">
+The mission of this college is only to augmentation of the students. so that they can achieve their goals and football their dreams.
+Keeping in view to the interest of the college the governing body make the institutional planning and implement there after meeting of
+governing body heads. Institutional plans are made by the then rector of the college with the help of teaching and non-teaching staff. 
+systematically and methodically ultimately plans are implemented. Teachers are the back bone of the college and they are able to make 
+estimate for the betterment of the institution after keeping attention of the students. Teaching and non-teaching staff of the college 
+are also able to give priority which are suitable for students as well as the staff. Our governing body is the final decision making bodies.
+</p>
+
+<h2>CAMPUS</h2>
+		<hr class="star_divider">
+		<p align="justify">
+</p><li><strong>Area :</strong> 11.43 acres</li>
+<li><strong>No.Of Building :</strong> 01</li>
+<li><strong>No.of Rooms :</strong> 23</li>
+<li><strong>Boys washroom :</strong> 04</li>
+<li><strong>Girls washroom :</strong> 08</li>
+<li><strong>Staff washroom :</strong> 04</li>
+<li><strong>Common Room :</strong> 02</li>
+<li><strong>Student Parking area :</strong> 01</li>
+<li><strong>Staff Parking area :</strong> 01</li>
+<li><strong>Playground( Football/Basketball) :</strong> 02</li>
+<p></p>
+
+
+		
+		
+				</div>
+		</div>
+		
+			
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+<footer class="page_footer cs ">
+    <div class="container">
+        <div class="row fut">
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+                    <a href="#" class="logo vertical_logo">
+                        <img src="{% static "images/logo-vertical.png" %} " alt="" class="low">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="fut-text">
+                    <h4 class="fut-title">OUR CONTACTS</h4>
+                    <p>
+                        <i class="fa fa-map-marker icon-d" aria-hidden="true"></i>
+             Tenughat(R.B),Petarwar, Bokaro,Jharkhand-829123
+        </p>
+                    <p>
+                        <i class="fa fa-envelope icon-d" aria-hidden="true"></i>
+            info@tenughatcollege.in
+        </p>
+                    <p>
+                        <i class="fa fa-phone icon-d" aria-hidden="true"></i>
+            9430769625
+        </p>
+                    <p class="greylinks">
+                        <i class="fa fa-internet-explorer icon-d" aria-hidden="true"></i>
+           <a href="#">www.tenughatcollege.in</a>
+        </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+                    <h4 class="fut-title">IMPORTENT LINKS</h4>
+					
+					<p class="greylinks">
+                        
+            <a href="/">HOME</a>
+        </p>
+                    <p class="greylinks">
+                       
+           <a href="#"> ABOUT US</a>
+        </p>
+                    <p class="greylinks">
+                       
+           <a href="contact"> CONTACTS</a>
+		</p>
+		<p class="greylinks">
+                       
+          <a href="/h">  GALLERY</a>
+        </p>
+                    <p class="greylinks">
+                       
+           
+        </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+
+                    <h4 class="fut-title">SUBSCRIBE NEWSLETTER</h4>
+
+                    <form  action="#" method="get">
+                        <p class="fut-text">Enter Email here to be updated. We promise not to send you spam!</p>
+                        <div class="" style="background-color: aliceblue;">
+                                                       
+                            <input name="email" type="email" class="mail" placeholder="Emai Address">
+                            <button ><i class="fa fa-pencil" style="font-size: 40px; padding-top: 20;"></i></button>
+                        </div>
+
+                        
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="cs ">
+	<div class="container">
+	    <div class="">
+		<div class=" text-center">
+		    <p class="last">© Copyright @ Tenughat Mahavidyalaya 2018. All Rights Reserved. <br>
+	 
+            Develop  Maintain By
+            <a href="#" id=gen><b> Gen Next Information Technology<b></a></p>
+            </div>
+    </div>
+    </div>
+           </section>
+
+
+	 
+<!--script for portfolio-->
+	<script src=" {% static "js/lightbox-plus-jquery.min.js" %} "> </script>
+	<script src="{% static "js/easyResponsiveTabs.js" %} " type="text/javascript"></script>
+		
+	</script>
+	<!--//script for portfolio-->
+
+
+<script src="{% static "js/owl.carousel.js" %} "></script>  
+	<script>
+		$(document).ready(function() { 
+			$("#owl-demo").owlCarousel({
+			  autoPlay: true, //Set AutoPlay to 3 seconds
+			  items :3,
+			  itemsDesktop : [640,2],
+			  itemsDesktopSmall : [414,1],
+			  navigation : true,
+			  // THIS IS THE NEW PART
+				afterAction: function(el){
+					//remove class active
+					this
+					.$owlItems
+					.removeClass('active')
+					//add class active
+					this
+					.$owlItems //owl internal $ object containing items
+					.eq(this.currentItem + 1)
+					.addClass('active')
+					}
+			// END NEW PART
+		 
+			});
+			
+		}); 
+	</script>
+	
+<!-- here starts scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+										
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+		<!-- flexSlider -->
+					<link rel="stylesheet" href="{% static "css/flexslider.css" %} " type="text/css" media="screen" property="" />
+					<script defer src="{% static "js/jquery.flexslider.js" %} "></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+		<!-- //flexSlider -->
+
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="{% static "js/move-top.js" %} "></script>
+		<script type="text/javascript" src="{% static "js/easing.js" %} "></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- /ends-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->
+	
+<script type="text/javascript" src="{% static "js/numscroller-1.0.js" %} "></script>
+	
+<script src="{% static "js/SmoothScroll.min.js" %} "></script>
+  </body>
+ </html> 

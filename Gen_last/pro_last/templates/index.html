@@ -1,0 +1,995 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	{% load static %}
+<title>Tenughat Mahavidyalaya Admin Page</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static "css/style1.css" %} ">
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="{% static "css/bootstrap.css" %}  " rel="stylesheet" type="text/css" media="all" />
+  
+<link rel="stylesheet" type="text/css" href=" {% static "css/style.css" %} " />
+<link rel="stylesheet" type="text/css" href="{% static "css/zoomslider.css" %} " />
+
+<link rel="stylesheet" href=" {% static "css/lightbox.css" %} ">
+<!-- carousel slider -->  
+<link href="{% static "css/owl.carousel.css" %} " rel="stylesheet" type="text/css" media="all"> 
+<!-- //carousel slider -->
+<link href="{% static "css/font-awesome.css" %} " rel="stylesheet"> 
+<script type="text/javascript" src="{% static "js/modernizr-2.6.2.min.js" %} "></script>
+<script src="{% static "js/jquery-2.2.3.min.js" %} "></script>
+<script src="{% static "js/bootstrap.js" %} "></script>
+<!--/web-fonts-->
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+<!--//web-fonts-->
+
+
+<script type="text/javascript">
+
+
+	$(document).ready(function() {
+		
+	
+		
+		if ($(window).width() < 'width', 'auto') {
+			
+			var navbar_height =  $('.navbar').outerHeight();
+	
+			$(window).scroll(function(){  
+				if ($(this).scrollTop() > 10) {
+					 $('.navbar-wrap').css('height', navbar_height + 'px');
+					 $('#navbar_top').addClass("fixed-top");
+					 
+				}else{
+					$('#navbar_top').removeClass("fixed-top");
+					$('.navbar-wrap').css('height', 'auto');
+				}   
+			});
+		} 
+	
+		
+	}); 
+	</script>
+	
+	<style type="text/css">
+	
+	.fixed-top.navbar{ padding:0px;  }
+	
+	</style>
+	
+	
+	
+</head>
+<body>
+	<!--/banner-bottom-->
+			  <div class="w3_agilits_banner_bootm">
+			     <div class="w3_agilits_inner_bottom">
+			            <div class="wthree_agile_login">
+						     <ul>
+								<li><i class="fa fa-phone" aria-hidden="true"></i> +91 6296813420</li>
+								<li><i class="fa fa-envelope-o list-icon" aria-hidden="true"></i><a href="mailto:info@tenughat.com">info@tenughat.com</a></li>
+							</ul>
+						</div>
+						 
+				</div>
+			</div>
+			<!--//banner-bottom-->
+  <!--/banner-section--
+  
+	<div id="demo-1" 
+	data-zs-src='[
+		
+	
+	"{% static "images/b1.jpg" %} ","{% static "images/6.jpg" %}","{% static "images/b2.jpg" %}",
+	"{% static "images/b3.jpg" %}","{% static "images/b4.jpg" %}"
+	
+	]'
+	 data-zs-overlay="dots">
+  -->
+		<div class="demo-inner-content">
+		<!--/header-w3l-->
+			   <div class="header-w3-agileits" id="home">
+			     <div class="inner-header-agile">	
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a  href="index.html"> <img src="{% static "images/logo.jpg" %} " width="220px" height="90px" style="border-radius: 2%;"> </a></h1>
+					</div>
+					<!-- navbar-header -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" >About Us</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="about">HISTORY</a></li>
+										<li><a class="dropdown-item" href="about">VISSION</a></li>
+										<li><a class="dropdown-item" href="about">MISSION &amp; GOAL</a></li>
+										<li><a class="dropdown-item" href="about">CAMPUS</a></li>
+										<li><a class="dropdown-item" href="about">GOVERNING BODY</a></li>
+										<li><a class="dropdown-item" href="#">RULES &amp; REGULATIONS</a>
+										</li><li><a class="dropdown-item" href="#">NOTICE</a></li>
+										<li><a class="dropdown-item" href="#saa">GALLERY</a>
+										
+										</li>
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ADMISSION</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="#">ADMISSION NOTICE</a></li>
+										<li><a class="dropdown-item" href="#">ADMISSION PROCEDURE</a></li>
+										<li><a class="dropdown-item" href="#">ELIGIBILITY CRITERIA</a></li>
+										<li><a class="dropdown-item" href="#">FEES</a></li>
+										
+										
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Academics</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+					
+										<li><a class="dropdown-item" href="#">DEPARTMENTS</a></li>
+										<li><a class="dropdown-item" href="#" class="sf-with-ul">COURSE</a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a class="dropdown-item" href="#">ARTS</a></li>
+												<li><a class="dropdown-item" href="#">SCIENCE</a></li>
+												<li><a class="dropdown-item" href="#">COMMERCE</a></li>
+											</ul>
+										</li>
+									</ul></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FACILITIES</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										<li><a class="dropdown-item" href="#">LIBRARY</a></li>
+										<li><a class="dropdown-item" href="#">COMPUTER LAB</a></li>
+										<li><a class="dropdown-item" href="#">NSS</a></li>
+										<li><a class="dropdown-item" href="#">SPORTS</a></li>
+										<li><a class="dropdown-item" href="#">ALUMNI</a></li>
+									</ul></li>
+									<li><a href="#saa"  class="scroll">Gallery</a></li>
+								<li><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IQAC</a>
+									<ul class="dropdown-menu dropdown-menu-right">
+										
+										<li><a class="dropdown-item" href="#">ACADEMIC CALENDAR</a></li>
+										<li><a class="dropdown-item" href="#">QUALITY INITIATIVE</a></li>
+										<li><a class="dropdown-item" href="#">FUTURE PLANS</a></li>
+										<li><a class="dropdown-item" href="#">ACADEMIC AUDIT</a></li>
+										<li><a class="dropdown-item" href="#">MINUTES OF MEETING</a></li>
+										<li><a class="dropdown-item" href="#" target="_blank">FEADBACK</a></li>
+										<li><a class="dropdown-item" href="#">SEMINARS &amp; WORKSHOPS</a></li>
+										
+									</ul></li>
+									<li class=""><a href="contact">Contact Us</a></li>
+								
+							</ul>
+						</div>
+				
+				</nav>
+			</div> 
+
+			   </div>
+		<!--//header-w3l-->
+
+
+
+			
+			
+    <!--Banner  nnnnnnnnnngv                   -->
+    
+    <div class="slideshow-container">
+
+        <table>
+			
+		{% for banner in banner_images %}
+	
+        <tr><td>
+        <div class="mySlides">
+			  <img src="{{ banner.banner_image.url }}" class="ss">
+			  <!--/banner-info-->
+			  <div class="baner-info">
+				
+				<h3><span>w</span>elcome to our <span>c</span>ollege</h3>
+			   
+			   
+			</div>
+		 <!--/banner-ingo-->	
+        </div>
+        </td></tr>
+        {% endfor %}
+        </table>
+    
+    
+    </div>
+        
+      
+
+
+
+          
+            
+            <script>
+              var slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex-1].style.display = "block";  
+                setTimeout(showSlides, 2000);
+              }
+              </script>
+
+
+<!--                             fgsssssssssssssssssss----->
+
+
+              
+			
+			
+
+
+
+
+				
+	
+  <!--/banner-section-->
+
+
+
+
+
+
+
+
+
+  <section class="ls pad">
+    <div class="container">
+        <div class="note" >
+            <div class="isotope-item col-lg-4 col-md-6 col-sm-6 col-xs-12 cl1" >
+                <div class=" gradient_bg_color cs ">
+                    <h4 class="notice_head"> 
+                        Notice Board
+                    </h4>
+                    <div class="notice fi">
+
+                    <marquee class="mar" direction="up" onmouseover="this.stop();" scrolldelay="300" onmouseout="this.start();" >
+            <table class="sidebar">
+
+				{% for Note1 in Note %} 
+           
+                
+				<tr><td  id="d">   {{ Note1.title }} 
+				   <a href="{{ Note1.attach_file.url }}" >Download<img src="{% static "images/ima.gif" %}" width="60"></a> 
+		   
+				  </td></tr>
+				  
+			  
+			  
+   {% endfor %}
+
+                    </tbody></table>
+                        </marquee>
+        </div>
+                </div>
+			</div>
+		
+            <div class="isotope-item col-lg-4 col-md-6 col-sm-6 col-xs-12 cl2" >
+                <div class="teaser gradient_bg_color icon-background-teaser hoverable-banner text-center">
+                    <img src="teaser_icon01.png" alt="" class="icon-background">
+                    <h4 class="notice_head">
+                        Prospectus
+                    </h4>
+                    <p class="">
+            Leberkas hamburger cow ba<br> t-bone pork belly ribeye, por<br> chop swine andouille.
+        </p>
+                    
+                </div>
+            </div>
+            <div class="isotope-item col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+                <div class="teaser gradient_bg_color icon-background-teaser hoverable-banner text-center">
+                    <img src="teaser_icon02.png" alt="" class="icon-background">
+                    <h4 class="notice_head">
+                        Magazine
+                    </h4>
+                    <p class="">
+            Tri-tip meatloaf short loin, turkey<br> corned beef flank burgdoggen<br> landjaeger t-bone shank.
+        </p>
+                   
+                </div>
+            </div>
+            <div class="isotope-item col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+                <div class="teaser gradient_bg_color icon-background-teaser hoverable-banner text-center">
+                    <img src="teaser_icon03.png" alt="" class="icon-background">
+                    <h4 class="notice_head">
+                        Digital Library
+                    </h4>
+                    <p class="">
+            Swine pork hamburger cupim<br> pork loin. Bresaola landjaeger tenderloin<br> meatball t-bone.
+        </p>
+                    
+                </div>
+            </div>
+            <div class="isotope-item col-lg-4 col-md-6 col-sm-6 col-xs-12" >
+                <div class="teaser gradient_bg_color icon-background-teaser hoverable-banner text-center">
+                    <img src="teaser_icon04.png" alt="" class="icon-background">
+                    <h4 class="notice_head">
+                        RTI
+                    </h4>
+                    <p class="">
+            Pork loin leberkas alcatra<br> hamburger fatback venison<br> beef ribs tri-tip landja.
+        </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="with_pos_button ">
+                    <img src="{% static "images/about.jpg" %} " alt="" class="ap">
+                    <a href="#" class="theme_button">
+            View more<br> photos
+        </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="about_head">
+                    History of Tenughat Mahavidyala
+                </h2>
+                <hr class="">
+                <p class="para">
+        Tenughat Mahavidyalaya Tenughat is a single Co-educational Degree College of Gomia Constituency
+         (Bokaro) The Mahavidyalaya is situated by the side of Sub-Division Head Quarter  Bermo at 
+         Tenughat one side and the other side it is situated by the side of ‘Tenughat DAM’ which is the 
+         biggest earthen Dam of Asia. Scene and scenario depicts the heavenly beauty environment and atmosphere.
+          To be more specific the area is a tribal area where SC, ST and Other weaker sections reside. For their
+           bright future an educational institution  on was required to be established and in order to give a shape
+            to this pious design. The founders of this Institution were led to establish this Mahavidyalaya as far
+             back as in the year of 1982. 
+    </p>
+                <p class="top1">
+        <a href="#" class="read">READ MORE</a>
+    </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+                            <div class="col-md-5">
+                                <div class="">
+                                    <img src="{% static "images/04.jpg" %} " alt="" class="ap5" >
+                                    
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-md-7">
+                                <div class="item-content">
+
+                                    <header class="pirn-head">
+                                        
+                                        <h4 class="pirn-title ">
+                                            <a href="#" >Message From The Desk Of Principal</a>
+                                        </h4>
+                                    </header>
+
+                                    <div class="pirn-content">
+                                        <p align="justify">Tenughat Mahavidyalaya Tenughat is a single Co-educational Degree College of Gomia Constituency under Bokaro district, Jharkhad state. The social workers of this area were led to establish this Mahavidyalaya as far back as in the year of 1982.<br> 
+This Mahavidyalaya providing Quality education to the down trodden sections of the society since the establishment period 1982 which is continued up to this day. <br>
+The Mahavidyalaya got Permanent affiliation by Vinoba Bhave University, Hazaribag (Jharkhand) in the year and session-2007-10. After getting permanent affiliation It was running smoothly under the rules as regulations of Vinoba Bhave University, Hazaribag (Jharkhand) but now from when Binod Bihari Mahto Koylanchal University, Dhanbad came in to existence Mahavidyalaya is running under the jurisdiction of such University. Our college has been registered under Section 2(f) and 12(B) of the UGC Act. 1956 New Delhi. After all our Mahavidyalaya giving better education to the well disciplined students in Arts, Commerce &amp; Science (Pass/Hons.).
+<br> 
+The qualitative educational faculties are extra ordinary in the manner that being encouraged by the same the parents and guardians of their off-spring and wards get elevated in lodging them as students of Tenughat Mahavidyalaya. From the corner of Non-Teaching  staff of this college are always co-operate to the students  not only but also our dedicated non-teaching  staff disposals all the paper works quickly for the interest of  the college as well as students.
+<br> 
+That our college also provides digital library, Separate Common Rooms of Girls and Boys, Separate Toilet, Canteen, Parking amenities, Purified Drinking Water, Play Ground, Transport facilities and Green Campus with CCTV Camera etc to the students. 
+<br>
+That in the present scenario tremendous affords are being doing for Computer education in this institution to the students by the Governing Body of this college. Governing Body which are legally formed by the University. </p>
+
+      <br> <center> <a href="#" class="button11">Read More <i class=""></i></a></center>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+</section>
+
+
+
+
+<br>
+
+
+
+  <!--about -->
+  <section class="stats">
+	  <div class="container-fluid">
+		<div class="container">
+			<div class="num">
+	
+			<div class="stats-info agileits-w3layouts">
+				<div class="col-sm-3 col-xs-3 stats-grid">
+					<div class="icon2">
+						<i class="fa fa-university" aria-hidden="true"></i>
+					</div>
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='12' data-delay='.5' data-increment="1">12</div>
+					<div class="stats-img stat2">
+							<p>branches</p>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-3 stats-grid">
+					<div class="icon2">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                    </div>
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='80' data-delay='.5' data-increment="1">80</div>
+					<div class="stats-img stat2">
+						<p>News Every Years</p>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-3 stats-grid stat1">
+					<div class="icon2">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+					<div class='numscroller numscroller-big-bottom' data-slno='10' data-min='0' data-max='4150' data-delay='.5' data-increment="5">4150</div>
+					<div class="stats-img stat2">
+						<p>Graduates Per Year</p>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-3 stats-grid stat1">
+					<div class="icon2">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+					<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='450' data-delay='.5' data-increment="1">450</div>
+					<div class="stats-img stat2">
+						<p>Professional Teachers</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				</div>
+		 </div>
+		</div>
+	</div>
+	
+  </section>
+	<!-- //about -->
+ 
+<br>
+
+	<div class="col-sm-12 text-center">
+		<h2 class="pro_head">
+			Awareness Programme
+		</h2>
+		<hr >
+		<p class="text96">
+The Community Awareness Program is a free, interactive program designed to provide student with the 
+basic tools needed to recognize and help prevent terrorism and criminal activity within our communities.
+Taught by public safety professionals, Community Awareness Program participants are trained to spot certain
+behaviors and situations. </p>
+	</div>
+		</div>
+		
+	<!-- team -->
+<div class="testimonials w3ls-section" id="team">
+	<div class="container">
+		
+	<div class="w3_testimonials_grids w3_testimonials_grids">
+		<div id="owl-demo" class="owl-carousel"> 
+			<!--div class="item w3_agileits_testimonials_grid">
+				<img src="images/t1.jpg" alt=" " class="img-responsive" />
+				<h4>J. Hobbs</h4>
+				<p>Donec quis turpis pellentesque justo pulvinar sceleris.</p>
+			</div>
+			
+			<div class="item w3_agileits_testimonials_grid">
+				<img src="images/t3.jpg" alt=" " class="img-responsive" />
+				<h4>John</h4>
+				<p>Donec quis turpis pellentesque justo pulvinar sceleris.</p>
+			</div-->
+			<div class="item w3_agileits_testimonials_grid">
+				<div class="vertical-item content-padding with_border">
+					<div class="item-media">
+						<img src="{% static "images/g6 (1).jpg" %} " alt=""  class="med">
+					</div>
+					<header class="post-relater-person go">
+						<a href="#" class="avatar">
+							<img src="{% static "3.jpg" %} " alt="" class="av" >
+						</a>
+						<span class="">
+							<a href="#">Go Green</a>
+						</span>
+					</header>
+					<div class="tent">
+						<div class=" small-text medium">
+							<a href="#">Plantation</a>
+						</div>
+						<h4 class="entry-title">
+							<a href="#">How To Maintain Your Mental Health</a>
+						</h4>
+					</div>
+				
+				</div>
+			</div>
+				<div class="item w3_agileits_testimonials_grid">
+				<div class="vertical-item content-padding with_border">
+					<div class="item-media">
+						<img src="{% static "images/g6 (1).jpg" %} " alt=""  class="med">
+					</div>
+					<header class="post-relater-person go">
+						<a href="#" class="avatar">
+							<img src="{% static "images/3.jpg" %} " alt="" class="av" >
+						</a>
+						<span class="">
+							<a href="#">Go Green</a>
+						</span>
+					</header>
+					<div class="tent">
+						<div class=" small-text medium">
+							<a href="#">Plantation</a>
+						</div>
+						<h4 class="entry-title">
+							<a href="#">How To Maintain Your Mental Health</a>
+						</h4>
+					</div>
+				
+				</div>
+			</div>
+			<div class="item w3_agileits_testimonials_grid">
+				<div class="">
+					<div class="item-media">
+						<img src="{% static "images/v.jpg" %}" alt="" class="med">
+					</div>
+					<header class="post-relater-person go">
+						<a href="#" class="avatar" >
+							<img src="{% static "images/f33.jpg" %} " alt="" class="av" >
+						</a>
+						<span class="">
+							<a href="#">Yoga Day</a>
+						</span>
+					</header>
+					<div class="tent">
+						<div class=" small-text">
+							<a href="#">Health</a>
+						</div>
+						<h4 class="entry-title">
+							<a href="#">Treating Crohn S Disease With A Special Diet</a>
+						</h4>
+					</div>
+					
+				</div>
+			</div>
+			<div class="item w3_agileits_testimonials_grid">
+				<div class="vertical-item content-padding with_border">
+					<div class="item-media">
+						<img src="{% static "images/gh.jpg" %} " alt="" class="med">
+					</div>
+					<header class="go post-relater-person">
+						<a href="#" class="avatar">
+							<img src="{% static "images/10.jpg" %} " alt="" class="av">
+						</a>
+						<span class="">
+							<a href="#">Swach Bhart</a>
+						</span>
+					</header>
+					<div class="tent">
+						<div class=" small-text medium">
+							<a href="#">Sports</a>
+						</div>
+						<h4 class="entry-title">
+							<a href="#">The Key To Your Motivation And Success</a>
+						</h4>
+			</div>
+			
+		</div>
+	</div>
+	<div class="item w3_agileits_testimonials_grid">
+		<div class="vertical-item content-padding with_border">
+			<div class="item-media">
+				<img src="g3.jpg" alt="" class="med">
+			</div>
+			<header class="go post-relater-person">
+				<a href="#" class="avatar">
+					<img src="10.jpg" alt="" class="av">
+				</a>
+				<span class="">
+					<a href="#">Swach Bhart</a>
+				</span>
+			</header>
+			<div class="tent">
+				<div class=" small-text medium">
+					<a href="#">Sports</a>
+				</div>
+				<h4 class="entry-title">
+					<a href="#">The Key To Your Motivation And Success</a>
+				</h4>
+	</div>
+	
+</div>
+</div>
+</div>
+</div></div>
+<!-- //team -->
+<!--portfolio-->
+	<div id="portfolio" class="portfolio w3ls-section">
+		<div class="container">
+			<h3 class="w3ls-title" id="saa" >gallery</h3>
+		<div class="sap_tabs">			
+		
+				
+			{% for gal1 in gal %}
+			 
+		
+				
+						<div class="col-md-3 portfolio-grids">
+							<a href="{{ gal1.images_g.url }} " data-lightbox="example-set" data-title="">
+								<img src="{{ gal1.images_g.url }} " class="img-responsive zoom-img"  alt=""/>
+								<div class="b-wrapper">
+									<h5>{{ gal1.title_g }}</h5>
+								</div>
+							</a>
+						</div>
+						{% endfor %}
+						<!--div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g2.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g2.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g3.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g3.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g4.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g4.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g5.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g5.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g6.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g6.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g7.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g7.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 portfolio-grids">
+							<a href="{%static "images/g8.jpg" %} " data-lightbox="example-set" data-title="Lorem Ipsum is simply dummy the when an unknown galley of type and scrambled it to make a type specimen.">
+								<img src="{%static "images/g8.jpg" %} " class="img-responsive zoom-img" alt=""/>
+								<div class="b-wrapper">
+									<h5>TechEdu</h5>
+								</div>
+							</a>
+						</div-->
+						<div class="clearfix"> </div>
+					
+					
+					</div>		
+					
+						
+					
+					
+						
+						
+					</div>
+					
+										
+			</div>
+		</div>
+		</div>	
+	</div>
+	<!--//portfolio-->
+  <!--//main-header-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	<script type="text/javascript" src="{% static "js/jquery.zoomslider.min.js" %} "></script>
+	<!-- testimonial -->
+	<div class="wthree-testi w3ls-section" id="testimonials">
+		<!-- container -->
+		<div class="container">
+			 
+			<div class="w3_wthree-testi_grids text-center">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>	
+								<div class="wthree-testi_grid">
+									<div class="testimonial-left">
+										<img src="{% static "images/01.jpg" %}" alt="" style="border-radius: 50px;"> 
+									</div>
+									<h5>Sri Madhav Lal Singh <br>
+										(Ex Transport Minister, Jharkhand, Bhihar)</h5>
+										<p>SECRETARY</p>
+									<p>Sed condimentum vehicula porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium consectetur ultricies. Nulla tortor felis, tincidunt eget lectus vitae, vehicula pellentesque enim. Vestibulum vel massa non dui gravida malesuada. Pellentesque bibendum urna.</p>
+									
+								</div>
+							</li>
+							<li>	
+								<div class="wthree-testi_grid">
+									<div class="testimonial-left">
+										<img src="{% static "images/02.jpg" %}" alt="" style="border-radius: 50px;">
+									</div>
+									<h5>Shi Yogendra Prasad (Ex MLA)</h5>
+									<p>EX CHAIRMAN</p>
+									<p>Sed condimentum vehicula porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium consectetur ultricies. Nulla tortor felis, tincidunt eget lectus vitae, vehicula pellentesque enim. Vestibulum vel massa non dui gravida malesuada. Pellentesque bibendum urna</p>
+									
+								</div>
+							</li>
+							<!--li>	
+								<div class="wthree-testi_grid">
+									<div class="testimonial-left">
+										<i class="fa fa-user" aria-hidden="true"></i> 
+									</div>
+									<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil 
+										impedit quo minus id quod possimus, omnis voluptas.</p>
+									<h5>Thomas Carl</h5>
+								</div>
+							</li-->
+						</ul>
+					</div>
+				</section>
+				
+			</div>
+		</div>
+	</div>
+<!-- //testimonial --> 
+
+	
+
+
+
+
+
+
+
+
+
+
+<footer class="page_footer cs ">
+    <div class="container">
+        <div class="row fut">
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+                    <a href="#" class="logo vertical_logo">
+                        <img src="{% static "images/logo-vertical.png" %} " alt="" class="low">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="fut-text">
+                    <h4 class="fut-title">OUR CONTACTS</h4>
+                    <p>
+                        <i class="fa fa-map-marker icon-d" aria-hidden="true"></i>
+             Tenughat(R.B),Petarwar, Bokaro,Jharkhand-829123
+        </p>
+                    <p>
+                        <i class="fa fa-envelope icon-d" aria-hidden="true"></i>
+            info@tenughatcollege.in
+        </p>
+                    <p>
+                        <i class="fa fa-phone icon-d" aria-hidden="true"></i>
+            9430769625
+        </p>
+                    <p class="greylinks">
+                        <i class="fa fa-internet-explorer icon-d" aria-hidden="true"></i>
+           <a href="#">www.tenughatcollege.in</a>
+        </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+                    <h4 class="fut-title">IMPORTENT LINKS</h4>
+					
+					<p class="greylinks">
+                        
+            <a href="#">HOME</a>
+        </p>
+                    <p class="greylinks">
+                       
+           <a href="about"> ABOUT US</a>
+        </p>
+                    <p class="greylinks">
+                       
+           <a href="contatct"> CONTACTS</a>
+		</p>
+		<p class="greylinks">
+                       
+          <a href="#saa">  GALLERY</a>
+        </p>
+                    <p class="greylinks">
+                       
+           
+        </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-left">
+                <div class="">
+
+                    <h4 class="fut-title">SUBSCRIBE NEWSLETTER</h4>
+
+                    <form  action="#" method="get">
+                        <p class="fut-text">Enter Email here to be updated. We promise not to send you spam!</p>
+                        <div class="" style="background-color: aliceblue;">
+                                                       
+                            <input name="email" type="email" class="mail" placeholder="Emai Address">
+                            <button ><i class="fa fa-pencil" style="font-size: 40px; padding-top: 20;"></i></button>
+                        </div>
+
+                        
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section class="cs ">
+	<div class="container">
+	    <div class="">
+		<div class=" text-center">
+		    <p class="last">© Copyright @ Tenughat Mahavidyalaya 2018. All Rights Reserved. <br>
+	 
+            Develop  Maintain By
+            <a href="#" id=gen><b> Gen Next Information Technology<b></a></p>
+            </div>
+    </div>
+    </div>
+           </section>
+
+
+	 
+<!--script for portfolio-->
+	<script src=" {% static "js/lightbox-plus-jquery.min.js" %} "> </script>
+	<script src="{% static "js/easyResponsiveTabs.js" %} " type="text/javascript"></script>
+		
+	</script>
+	<!--//script for portfolio-->
+
+
+<script src="{% static "js/owl.carousel.js" %} "></script>  
+	<script>
+		$(document).ready(function() { 
+			$("#owl-demo").owlCarousel({
+			  autoPlay: true, //Set AutoPlay to 3 seconds
+			  items :3,
+			  itemsDesktop : [640,2],
+			  itemsDesktopSmall : [414,1],
+			  navigation : true,
+			  // THIS IS THE NEW PART
+				afterAction: function(el){
+					//remove class active
+					this
+					.$owlItems
+					.removeClass('active')
+					//add class active
+					this
+					.$owlItems //owl internal $ object containing items
+					.eq(this.currentItem + 1)
+					.addClass('active')
+					}
+			// END NEW PART
+		 
+			});
+			
+		}); 
+	</script>
+	
+<!-- here starts scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/
+										
+				$().UItoTop({ easingType: 'easeOutQuart' });
+									
+				});
+		</script>
+		<!-- flexSlider -->
+					<link rel="stylesheet" href="{% static "css/flexslider.css" %} " type="text/css" media="screen" property="" />
+					<script defer src="{% static "js/jquery.flexslider.js" %} "></script>
+					<script type="text/javascript">
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+		<!-- //flexSlider -->
+
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="{% static "js/move-top.js" %} "></script>
+		<script type="text/javascript" src="{% static "js/easing.js" %} "></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<!-- /ends-smoth-scrolling -->
+	<!-- //here ends scrolling icon -->
+	
+<script type="text/javascript" src="{% static "js/numscroller-1.0.js" %} "></script>
+	
+<script src="{% static "js/SmoothScroll.min.js" %} "></script>
+  </body>
+ </html> 
